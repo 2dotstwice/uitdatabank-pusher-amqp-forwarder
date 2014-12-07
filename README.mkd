@@ -2,7 +2,7 @@
 
 - Node.js and npm
 
-# Installation
+# Getting started
 
 Install dependencies with npm:
 
@@ -11,3 +11,9 @@ npm install
 ```
 
 Copy config.dist.json to config.json and fill in the required settings.
+
+Start the application:
+
+```
+node forwarder.js
+```

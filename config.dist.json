@@ -1,0 +1,8 @@
+{
+  "amqp_connection": {
+    "url": "amqp://your_amqp_host"
+  },
+  "pusher": {
+    "application_key": "your_pusher_application_key"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "uitdatabank-pusher-amqp-forwarder",
+  "version": "0.1.0",
+  "description": "",
+  "main": "forwarder.js",
+  "author": "Kristof Coomans <kristof@2dotstwice.be>",
+  "license": "ISC",
+  "dependencies": {
+    "amqp": ">= 0.1.5",
+    "pusher-client": ">= 0.2.2"
+  }
+}

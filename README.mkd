@@ -1,0 +1,13 @@
+# Prerequisites
+
+- Node.js and npm
+
+# Installation
+
+Install dependencies with npm:
+
+```
+npm install
+```
+
+Copy config.dist.json to config.json and fill in the required settings.

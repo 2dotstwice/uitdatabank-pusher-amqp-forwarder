@@ -7,7 +7,7 @@ var pusher = new Pusher(config['pusher']['application_key']);
 
 var connect = require('amqp').createConnection(config['amqp_connection']);
 
-var pusher_channel = pusher.subscribe('test_channel');
+var pusher_channel = pusher.subscribe(config['pusher']['channel']);
 
 connect.on('ready', function () {
   console.log('connect ready');

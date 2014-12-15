@@ -3,6 +3,8 @@
     "url": "amqp://your_amqp_host"
   },
   "pusher": {
-    "application_key": "your_pusher_application_key"
+    "application_key": "your_pusher_application_key",
+    // "channel": "prod_channel"
+    "channel": "test_channel"
   }
 }
